@@ -83,7 +83,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Returns inversed matrix for a given cacheMatrix. If cacheMatrix already
+## "knows" it's ivnversed, the cached data will be returned
 
 cacheSolve <- function(x, ...) {
     
